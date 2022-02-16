@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moiras - Moto Clothing</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logo_fondo transparente-11.png" type="images/x-icon">
+</head>
+<body>
+     <!--header y Nav con lista y flex para hacerlo responsive-->
+    <header>
+        <nav class="nav">
+            
+            <ul class="nav__links">
+                <li class="nav__item">
+                    <img class="logo nav__link" src="images/logo_fondo transparente-11.png" alt="LogoMoiras">
+                </li>
+                <li class="nav__item nav__item--active">
+                    <a class="nav__link" href="index.html">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="pages/productos.html">Productos</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="pages/blog.html">Blog</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="pages/quienes_somos.html">¿Quiénes somos?</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="pages/contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <form class="nav__search">
+                        <input class="nav__input" type="text" placeholder="buscar...">
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>  <!--Main con imagenes y videos responsive-->
+        <div class="main__title">
+            <h1>Moiras Moto Clothing</h1>
+        </div>
+        <img class="img_size" src="images/pexels-roger-lagesse-2745827.jpg" alt="Persona en moto en el desierto">
+
+        <iframe class="video_size" width="820" height="400" src="https://www.youtube.com/embed/Zl_obIueZkk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Video comercial</iframe>
+
+
+    </main>
+
+    <!--footer con lista y flex para hacerlo responsive-->
+    <footer class="footer">
+        <ul class="footer__content">
+            <li class="footer__about footer__elements">
+                <h5>Moiras - Moto Clothing</h5>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non culpa impedit deserunt. Magnam eaque beatae voluptatum cumque quam sit, dolore deleniti quia minima, eveniet reprehenderit. Dicta quidem ratione voluptates quis.</p>
+            </li>
+            <li class="footer__elements">
+                <ul class="footer__nav">
+                    <li class="footer__list"><a href="pages/contacto.html">Contacto</a></li>
+                    <li class="footer__list">Legales</li>
+                    <li class="footer__list">FAQ's</li>
+                    <li class="footer__list">Envíos</li>
+                    <li class="footer__list">Compras</li>
+                </ul>
+            </li>
+            <li class="footer__elements">
+                <form class="footer__form">
+                    <fieldset>
+                            <legend>Suscríbete a nuestro Newsletter</legend>     
+                            <label for="">Email</label>
+                            <input type="email">
+                            <input type="submit" value="Registro">
+                    </fieldset>
+                </form>
+            </li>
+        </ul>
+    </footer>    
+</body>
+</html>

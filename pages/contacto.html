@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=+, initial-scale=1.0">
+    <title>Moiras - Contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/logo_fondo transparente-11.png" type="images/x-icon">
+</head>
+<body>
+        <!--header y Nav con lista y flex para hacerlo responsive-->
+    <header>
+        <nav class="nav">
+            <ul class="nav__links">
+                <li class="nav__item">
+                    <img class="logo nav__link" src="../images/logo_fondo transparente-11.png" alt="LogoMoiras">
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="../index.html">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="productos.html">Productos</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="quienes_somos.html">¿Quiénes somos?</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link nav__item--active" href="contacto.html">Contacto</a>
+                </li>
+                <li>  
+                    <form class="nav__search">
+                        <input class="nav__input" type="text" placeholder="buscar...">
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <form class="contacto">
+            <fieldset class="contacto__form">
+                <legend><strong>Contáctanos</strong></legend>
+                <label for="">Nombre</label>
+                <input type="text" required> <!--requiered hace elementos obligatorios-->
+                <div>
+                   <label for="">Apellido</label>
+                    <input type="text">    
+                </div>
+                  
+                <div><!-- selección de checkbox -->
+                    <p><strong>Cómo nos conociste?</strong></p>
+                    <label for="">Instagram</label>
+                    <input type="checkbox">
+                    <br>                        
+                    <label for="">Facebook</label>
+                    <input type="checkbox">
+                    <br>
+                    <label for="">TikTok</label>
+                    <input type="checkbox">
+                    <br>
+                    <label for="">Compañeros Moteros</label>
+                    <input type="checkbox">
+                </div>
+                <br>
+                <div>
+                        <label for="">Email</label>
+                        <input type="email">
+                </div>
+                <br>
+                <div>
+                        <label for="">¿En qué podemos ayudarte?</label>
+                        <br>
+                        <textarea name="" id="" cols="15" rows="5" placeholder="Describe tu situación aquí"></textarea> 
+                </div>
+                   
+                <input type="submit" value="Registro">
+            </fieldset>
+        </form>
+    </main>
+
+   <!--footer con lista y flex para hacerlo responsive-->
+   <footer class="footer">
+        <ul class="footer__content">
+            <li class="footer__about footer__elements">
+                <h5>Moiras - Moto Clothing</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non culpa impedit deserunt. Magnam eaque beatae voluptatum cumque quam sit, dolore deleniti quia minima, eveniet reprehenderit. Dicta quidem ratione voluptates quis.</p>
+            </li>
+            <li class="footer__elements">
+                <ul class="footer__nav">
+                    <li class="footer__list"><a href="../pages/contacto.html">Contacto</a></li>
+                    <li class="footer__list">Legales</li>
+                    <li class="footer__list">FAQ's</li>
+                    <li class="footer__list">Envíos</li>
+                    <li class="footer__list">Compras</li>
+                </ul>
+            </li>
+            <li class="footer__elements">
+                <form class="footer__form">
+                    <fieldset>
+                            <legend>Suscríbete a nuestro Newsletter</legend>     
+                            <label for="">Email</label>
+                            <input type="email">
+                            <input type="submit" value="Registro">
+                    </fieldset>
+                </form>
+            </li>
+        </ul>
+    </footer>    
+</body>
+</html>
